@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Module-3 Assignment</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <button type="button" class="jumbotron jumbotron-icon">
+            <lalbe for="check" class="checkbtn">
+                <i class="fas fa-bars fa-lg" aria-hidden="true"></i>
+                </label>
+        </button>
+        <label class="logo">Food LLC</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Chicken</a></li>
+            <li><a href="#">Beep</a></li>
+            <li><a href="#">Sushi</a></li>
+        </ul>
+    </nav>
+    <div class="tile" id="specials-tile">
+        <a href="#" onclick="$dc.loadMenuItems('{{randomCategoryShortName}}');">
+           <img src="specials.jpg" alt="Specials">
+           <p>Specials</p>
+        </a>
+     </div>
+     <div class="tile" id="specials-tile">
+        <a href="#" onclick="$dc.loadMenuItems(getRandomCategoryShortName());">
+           <img src="specials.jpg" alt="Specials">
+           <p>Specials</p>
+        </a>
+     </div>
+          
+</body>
+
+</html>
